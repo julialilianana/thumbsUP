@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SearchBar from './SearchBar'
+import SearchPage from './SearchPage'
 
 class App extends Component{
   render(){
@@ -7,7 +7,7 @@ class App extends Component{
       <React.Fragment>
         <h1>App here</h1>
 
-        <SearchBar/>
+        <SearchPage/>
       </React.Fragment>
       
     )
